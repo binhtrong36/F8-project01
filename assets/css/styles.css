@@ -1,0 +1,16 @@
+/* dont worry about math padding , width... */
+* {
+    box-sizing: border-box;
+}
+
+/* font with by rem */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
+.inilitic {
+    font-style: italic;
+}
