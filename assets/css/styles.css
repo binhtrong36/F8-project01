@@ -124,6 +124,32 @@ a {
 .hero-img {
     position: absolute;
     bottom: 0;
-    right: ((100vw -1110px) / 2 -100px);
+    /* width: 584px;
+    height: 619px; */
+    right: calc((100vw - 1110px) / 2 - 100px);
 }
 /* end hero */
+
+/* client */
+.clients {
+    margin-top: 122px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.row .desc {
+    ont-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+.clients .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+}
