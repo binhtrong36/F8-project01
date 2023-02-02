@@ -65,6 +65,8 @@ a {
     z-index: 1;
 }
 .header {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-color: #e6f0ff;
     height: 100vh;
